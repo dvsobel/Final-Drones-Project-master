@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<!-- <p class="food">Camp House</p> -->
+
+<!-- Navigation Bar Below -->
+   <ul>
+      <li><a class="index.html" href="index.html">HOME</a></li>
+      <li><a class="map.html" href="map.html">INTERACTIVE MAP</a></li>
+         <li><a class="3d-scan.html" href="3d-scan.html">3D-MODEL</a></li>
+      <li><a class="sketch.html" href="sketch.html">DRAWING APP</a></li>   
+   </ul>
+
+   <div class="line-separator"></div>
+
+    <div class="slider-title">
+      <p>Breezemont Day Camp</p>
+      </div>
+
+<!-- This is where my gallery will go -->
+<div class="big-container">
+
+  
+   <div class="slides-container">
+         <img class="slides" src="images/DJI_0052.jpg">
+         <img class="slides" src="images/DJI_0035.jpg">
+         <img class="slides" src="images/DJI_0070.jpg">
+           <img class="slides" src="images/DJI_0819.jpg">
+             <img class="slides" src="images/DJI_0876.jpg">
+      </div>
+
+      <div class="buttons-container">
+         <div class="left-arrow" onclick="switchSlide(-1)">&#10094;</div>
+         <div class="right-arrow" onclick="switchSlide(1)">&#10095;</div>
+         <span class="dot-button myDot" onclick="currentSlide(1)"></span>
+         <span class="dot-button myDot" onclick="currentSlide(2)"></span>
+         <span class="dot-button myDot" onclick="currentSlide(3)"></span>
+          <span class="dot-button myDot" onclick="currentSlide(4)"></span>
+           <span class="dot-button myDot" onclick="currentSlide(5)"></span>
+      </div>
+      </div>
+  
+
+<div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8LdIHrYGLRE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+<p id="small-text-description">Welcome!</p>
+
+<div id="camp-description">Breezemont, founded in 1936, is a co-ed day camp for children ages 3-13, located on 18 beautiful acres in Armonk, NY. <br>
+
+We specialize in creating valuable summer experiences that our campers remember for a lifetime. Summer after summer, families return to Breezemont for its encouraging atmosphere, wide array of activities, and thriving sense of community.<br><br>
+
+In today’s world of digital interactions, Breezemont campers make real connections with fellow campers and our experienced staff, gaining the social and emotional tools they need to be successful in life. We are dedicated to providing an extraordinary summer camp experience where children can grow, explore, connect, and play, in a fun and safe environment.</div>
+
+
+
+<p id="project-descrip-title"> Project Description</p>
+
+<div id="project-description"> This website is a school project from The New School by Estee Bruno and Danielle Sobel. We used a drone to record and take pictures of the Breezemont Day Camp during Fall 2016. For this project, we created a website that shows an interactive map where parents and children can use it. The map shows the entire camp and describes what each area is called. The vintage home that is located in the front of the camp, was made into a 3D render. Since the camp will be doing construction, we wanted to preserve the original athestics digitally so that everyone can see it. Danielle added another component from her Advanced Javascript by making an app to make drawings and colors of the camp. </div>
+
+
+
+
+
+<p id="history-title"> History</p>
+<img id="housepicture" src="images/DJI_0198.jpg">
+<div id="history-text"> The main house was built in the 1860s. It was the main focus of a summer resort of New York City families. It served as a hotel and boarding house from the early 1900's. In 1936, it finally became an offical camp in Weschester County. </div>
+
+
+
+
+<p id="about-title"> About Us</p>
+
+<img id = "estee" src="images/Estee.jpg">
+
+<div id="about-estee"> Estee Bruno is a student at The New School, studying Design and Technology MFA. She has a background in print production, editorial design and graphic design. For more information you can contact her at brune548@newschool.edu </div>
+
+<img id = "danielle" src="images/Danielle.jpg">
+
+<div id="about-danielle"> Danielle Sobel is a student at The New School, studying Design and Technology MFA. She studied drawing and painting in her undergrad at Penn State. </div>
+
+
+<div class="wrapper2"> 
+ 
+ <article class="main2">   
+  </article>  
+  <aside class ="image-estee"></aside> 
+   <aside class="about-estee"></aside> 
+   <aside class="danielle-picture"></aside> 
+   <aside class="about-danielle"></aside> 
+    </div>
+
+
+<div class="wrapper"> 
+ 
+ <article class="main">   
+      
+ <a href="https://breezemontdaycamp.com/">Official Breezemont Day Camp Site</a>
+  </article>  
+  <aside class="aside aside-1">Drones and 3D</aside> 
+   <aside class="aside aside-2">Professor Mehdi Salehi</aside> 
+    <footer class="footer">The New School</footer></div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
